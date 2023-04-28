@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body,
+  .wrapper {
+    height: 100%;
+  }
+  
+  @keyframes rotate {
+    100% {
+      background-position: 15% 50%;
+    }
+  }
+  
+  body {
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0 24px;
+    background-image: url("background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Euclid Circular A";
+    color: #fff;
+    animation: rotate 300s infinite alternate linear;
+  }
+  
+  @media (width >= 500px) {
+    body {
+      padding: 0;
+    }
+  }
+  
+  .login-card {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    margin: 20px;
+    padding: 70px 30px 44px;
+    border-radius: 1.25rem;
+    background: #0d0d3f;
+    text-align: center;
+  }
+  
+  @media (width >= 500px) {
+    .login-card {
+      margin: 2;
+      width: 400px;
+    }
+  }
+  
+  .login-card > h2 {
+    font-size: 36px;
+    font-weight: 600px;
+    margin: 0 0 12px;
+  }
+  
+  .login-card > h3 {
+    color: #b0b8d1;
+    margin: 0 0 30px;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  
+  .login-form {
+    width: 100%;
+    margin: 0;
+    display: grid;
+    gap: 16px;
+  }
+  
+  .login-form > input {
+    width: 100%;
+    height: 56px;
+  }
+  
+  .login-form > button {
+    width: 100%;
+    height: 56px;
+  }
+  
+  .login-form > input {
+    border: px solid #b0b8d1;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 0 16px;
+  }
+  
+  .login-form > button {
+    cursor: pointer;
+    width: 100%;
+    height: 56px;
+    padding: 0 16px;
+    border-radius: 0.5rem;
+    background: #216ce7;
+    color: #bdabab;
+    border: 0;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: all 0.375s;
+  }
+  
+  .login-form > a {
+    color: #216ce7;
+    font-size: 1rem;
+    text-align: left;
+    text-decoration: none;
+    margin-bottom: 6px;
+  }
+  /* o login é o de cima*/
+  body {
+      text-align: left;
+      background-image: url("img/FUNDO.jpg");
+      margin: 15px 0 0 0;
+      color: #b0b8d1;
+      font-family: 'kanit';
+  }
+  ul {
+    
+    list-style-type: none;
+    margin: 20;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: #0d0d3f;*/
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+    
+    display: block;
+    color: #002bae;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #090930;
+  }
+  #searchbar{
+      
+      background-color: rgb(176, 184, 209);
+      margin-left: 15%;
+      padding:15px;
+      border-radius: 10px;
+    }
+    
+  
+    input[type=text] {
+       width: 30%;
+       -webkit-transition: width 0.15s ease-in-out;
+       transition: width 0.15s ease-in-out;
+    }
+  
+    /* When the input field gets focus,
+         change its width to 100% */
+    input[type=text]:focus {
+      width: 70%;
+    }
+  
+   #list{
+     font-size:  1.5em;
+     margin-left: 90px;
+    }
+  .topo  {
+      text-align: left;
+      text-transform: capitalize;
+      vertical-align: text-top;
+      padding: 32px;
+      /*background-color: #0d0d3f;*/
+      color: #8fa8f2;
+      
+      border-radius: 10px;
+      flex-direction: row;
+    }
+  .logo {
+      width: 50px;
+      height: auto;
+  }
+  .catalogo img {
+      width: 100%;
+      max-width: 350px;
+      height: 500px;
+      object-fit: fill;
+      border-radius: 10px;
+  }
+  .catalogo {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 20px 10px;
+   }
+   .credenciais-card {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    margin: 0 20px;
+    padding: 70px 30px 44px;
+    border-radius: 1.25rem;
+    background: #0d0d3f;
+    text-align: center;
+  }
+  .credenciais-form {
+    width: 100%;
+    margin: 0;
+    display: grid;
+    gap: 16px;
+    border: 99px solid #0d0d3f;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 0 16px;
+    color: #216ce7;
+    font-size: 1rem;
+    text-align: left;
+    text-decoration: none;
+    margin-bottom: 6px;
+    cursor: pointer;
+    width: 100%;
+    height: 306px;
+    padding: 0 16px;
+    border-radius: 0.5rem;
+    color: #f9f9f9;
+    border: 0;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: all 0.375s;
+  }
+  

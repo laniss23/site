@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+ }
+ 
+ nav {
+     background-color: #0d0d3f;
+     color: #8fa8f2;
+     font-size: 18px;
+     font-weight: bold;
+     height: 65px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   
+   ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     display: flex;
+   }
+   
+   li {
+     margin-right: 20px;
+   }
+   
+   a {
+     color: #8fa8f2;
+     text-decoration: none;
+     padding: 10px;
+     transition: background-color 0.5s;
+   }
+   
+   a:hover {
+     background-color: #2b2828;
+   }
+   img{
+     width: 50px;
+     height: 50px;
+     margin-right: 1050px ;
+   }
+   body{
+     background-color: #0d0d1f ;
+   }
+   p{
+     vertical-align: text-bottom;
+     color: #B0B8D1;
+   }
+   .footer1 {
+     position: fixed;
+     left: 680px;
+     bottom: 10px;
+     width: 50px;
+     background-color: 0d0d3f;
+     color: #8fa8f2;
+     text-align: center;
+   }
+   .footer2 {
+     position: absolute;
+     left: 780px;
+     bottom: 10px;
+     width: 50px;
+     background-color: 0d0d3f;
+     color: #8fa8f2;
+     text-align: center;
+   }
+   .imagem{
+     float: left;
+     text-align: center;
+   }
+   
+ 
+ 
+ 
+   .container {
+     position: relative;
+     width: 50%;
+     margin: 15px;
+     
+     float: left;
+     width: 180px;
+   }
+   
+   .image {
+     display: block;
+     width: 200px;
+     height: 200px;
+     position: relative;
+     margin-left: 300px;
+     margin-top: 200px;
+     
+   }
+   
+   .overlay {
+     position: absolute;
+     bottom: 50%;
+     left: 0;
+     right: 0;
+     background-color: #0d0d3f;
+     overflow: hidden;
+     width: 200px;
+     height:0 ;
+     transition: .5s ease;
+     margin-left: 300px;
+     margin-top: 200px;
+   }
+   
+   .container:hover .overlay {
+     bottom: 0;
+     margin-left: 300px;
+     margin-top: 200px;
+     width: 200px;
+     height: 200px;
+     
+   }
+   
+   .text {
+     white-space: nowrap; 
+     color: #8fa8f2;
+     font-size: 20px;
+     position: absolute;
+     overflow: hidden;
+     top: 50%;
+     left: 50%;
+     transform: translate(-60%, -60%);
+     -ms-transform: translate(-50%, -50%);
+     text-align: center;
+     margin-left: 15px;
+   }
+   h1{
+     color: #8fa8f2;
+     text-align: center;
+     margin-top: 60px;
+   }
+   
+   
+   
+  
+  
+  
+ 
